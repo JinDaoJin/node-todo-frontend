@@ -7,7 +7,7 @@ exports.redirect_home = function(req, res) {
 }
 
 exports.health_check = function(req, res) {
-	res.send("OK");
+	res.send("Great!");
 }
 
 exports.todo_list = function(req, res) {
